@@ -2,6 +2,11 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+.nav-titulo {
+  text-decoration: none;
+  color: white;
+}
+
 /* Hero Section */
 
 .nav-texto {
