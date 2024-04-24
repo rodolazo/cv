@@ -28,6 +28,10 @@ body {
   background-position: center;
 }
 
+.desafio {
+  margin-bottom: 20px;
+}
+
 /* Contacto */
 
 #Contacto form label {
@@ -41,6 +45,11 @@ body {
 
 .lista-align {
   text-align: left;
+}
+
+.footer__redes {
+  text-decoration: none;
+  color: white;
 }
 
 @media (max-width: 768px) {
