@@ -3,13 +3,242 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prueba</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Rodolfo Lazo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+        integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    Hola Rodolfo
+    <nav class="navbar navbar-expand-lg  fixed-top" style="background-color: #010135;" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand nav-texto" href="#">
+                Rodolfo Lazo
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+                    <li class="nav-item">
+                        <a class="nav-link nav-texto" href="#Acerca-de-mi">Acerca de mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-texto" href="#mis-trabajos">Portafolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-texto" href="#contactame">Contacto</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <header id="Hero-Section" class="text-light text-end py-5 mt-5">
+        <div class="container">
+            <div class="ms-auto col-12 col-md-7 ">
+                <img class="rounded-circle" src="assets/img/rodo.jpg">
+                <h1 class="display-1 fw-bold my-5 hero-texto">
+                    Rodolfo Lazo
+                </h1>
+                <h2 class="hero-texto">
+                    Full Stack Web Developer
+                </h2>
+                <div class="mb-5 pb-5">
+                    <button class="btn btn-lg btn-secondary text-light">Contacto</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section id="Acerca-de-mi" class="container text-center my-5">
+
+
+        <h2 class="display-3 fw-bold my-4">Acerca de mi</h2>
+
+        <p class="my-4">
+            Hola! Mi nombre es Rodolfo y soy un apasionado del desarrollo web. Actualmente, estoy cursando un bootcamp
+            de desarrollo de aplicaciones web, donde estoy aprendiendo las últimas tecnologías y habilidades necesarias
+            para construir aplicaciones web modernas.
+        </p>
+        <p class="my-4">
+            Durante este bootcamp, estaré trabajando en proyectos prácticos utilizando HTML, CSS, JavaScript,
+            Bootstrap, React y NodeJS. Mi objetivo es convertirme en un desarrollador web completo y contribuir al mundo
+            digital con soluciones creativas y funcionales.
+        </p>
+        <p class="my-4">
+            Estoy emocionado por seguir aprendiendo y aplicando mis conocimientos en proyectos reales. Siempre estoy
+            abierto a nuevas oportunidades y desafíos, así que no dudes en contactarme si tienes alguna propuesta
+            interesante.
+        </p>
+        <p class="my-4">
+            ¡Gracias por visitar mi perfil!
+        </p>
+
+
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <i class="fas fa-user-graduate fa-3x my-3"></i>
+                <h3 class="my-3 fw-bold">Estudios</h3>
+                <p class="my-3">
+                <ul class="lista-align">
+                    <li>Bootcamp Full Stack Desarrollo Web </li>
+                    <li>CEEDV : Estudios empresariales</li>
+                    <li>Universidad Nacional de Ingeniería</li>
+                </ul>
+                </p>
+            </div>
+            <div class="col-12 col-md-4">
+                <i class="fas fa-briefcase fa-3x my-3"></i>
+                <h3 class="my-3 fw-bold">Trabajos</h3>
+                <p class="my-3">
+                <ul class="lista-align">
+                    <li>Musgrave : Planner Developer </li>
+                    <li>Vodafone : Soporte Técnico a las ventas</li>
+                    <li>Ferosa : IT Supporter</li>
+                </ul>
+                </p>
+            </div>
+            <div class="col-12 col-md-4">
+                <i class="fas fa-tasks fa-3x my-3"></i>
+                <h3 class="my-3 fw-bold">Soft skills</h3>
+                <p class="my-3">
+                <ul class="lista-align">
+                    <li>Comunicación efectiva</li>
+                    <li>Trabajo en equipo y colaboración</li>
+                    <li>Resolución de problemas y pensamiento crítico</li>
+                </ul>
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="Mis-trabajos" class="my-5 p-5 mistrabajos">
+
+        <h2 class="display-4 fw-bold text-center mb-3" id="mis-trabajos" style="color: #222;">Portafolio</h2>
+
+        <div class="row">
+            <div class="col-12 col-sm-4 py-2">
+                <div class="card">
+                    <div class="image-top" style="background-image: url(assets/img/arab.jpg)"></div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Desierto Electrónico</h5>
+                        <p class="card-text">
+                            Este álbum combina los sonidos místicos del desierto árabe con ritmos de house.
+                            Las melodías de la úd, los tambores darbuka y las voces evocadoras se entrelazan con los
+                            pulsantes beats electrónicos.
+                            Cada pista te transporta a un oasis de sonidos exóticos y energía contagiosa.
+                        </p>
+                        <button type="button" class="btn btn-outline-info">
+                            Ver más
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 py-2">
+                <div class="card">
+                    <div class="image-top" style="background-image: url(assets/img/latino.jpg)"></div>
+                    <div class=" card-body">
+                        <h5 class="card-title fw-bold">Sabor Latino House</h5>
+                        <p class="card-text">
+                            Este álbum es un viaje a través de los ritmos latinos fusionados con la energía del house.
+                            Las guitarras flamencas, las percusiones congas y las voces apasionadas se mezclan con los
+                            beats electrónicos.
+                            Desde las calles de La Habana hasta las playas de Río de Janeiro, este álbum te hace bailar
+                            al compás de la pasión latina.
+                        </p>
+                        <button type="button" class="btn btn-outline-info">
+                            Ver más
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 py-2">
+                <div class="card">
+                    <div class="image-top" style="background-image: url(assets/img/africa.jpg)"></div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Ritmos del continente</h5>
+                        <p class="card-text">
+                            Inspirado en la riqueza musical de África, este álbum fusiona los ritmos tradicionales con
+                            la modernidad del house.
+                            Los tambores africanos, los coros tribales y los sintetizadores crean una experiencia de
+                            baile única.
+                            Desde las sabanas hasta las selvas, cada canción celebra la diversidad y la vitalidad del
+                            continente africano.
+                        </p>
+                        <button type="button" class="btn btn-outline-info">
+                            Ver más
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section id="Contacto" class="container my-5">
+
+        <h2 class="display-4 fw-bold text-center my-4" id="contactame">Contáctame</h2>
+
+        <p class="text-center my-4 d-none d-md-block">¡Contáctame para Eventos y Proyectos!<br>
+            ¿Tienes un evento emocionante en mente o deseas colaborar en un proyecto musical? ¡Estoy encantado de
+            escuchar tus ideas! Por favor, completa el formulario a continuación y estaré en contacto contigo lo antes
+            posible.</p>
+
+        <form>
+
+
+            <div class="form-group mb-4">
+                <label class="mb-2">Nombre</label>
+                <input class="form-control" placeholder="Nombre">
+            </div>
+
+            <div class="form-group mb-4">
+                <label class="mb-2">Correo electrónico</label>
+                <input class="form-control" placeholder="Correo electrónico" />
+            </div>
+
+
+            <div class="form-group">
+                <label class="mb-2">Mensaje</label>
+                <textarea class="form-control" placeholder="Escribe aquí tu mensaje"></textarea>
+            </div>
+
+            <div class="my-3 text-end">
+                <button class="btn btn-info text-light">Enviar</button>
+            </div>
+
+
+
+        </form>
+
+    </section>
+
+
+
+    <footer class="text-center text-light p-4" style="background-color: #010135;">
+        <p class="mb-0">Rodolfo Lazo 2024. Todos los derechos reservados.</p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
